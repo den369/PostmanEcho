@@ -10,7 +10,7 @@ import static org.hamcrest.Matchers.is;
 
 class postmanEchoTest {
     @Test
-    void shouldGetRequestResult() {
+    public void shouldGetRequestResult() {
 // Given - When - Then
 // Предусловия
         given()
@@ -22,7 +22,7 @@ class postmanEchoTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("some dat"))
+                .body("data", equalTo("some data"))
         ;
     }
 }

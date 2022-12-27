@@ -7,7 +7,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class postmanEchoTestLat {
     @Test
-    void shouldGetRequestResult() {
+    public void shouldGetRequestResult() {
 // Given - When - Then
 // Предусловия
         given()
